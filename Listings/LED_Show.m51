@@ -1,0 +1,187 @@
+BL51 BANKED LINKER/LOCATER V6.22                                                        02/09/2023  20:33:45  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22, INVOKED BY:
+E:\KEIL C51\C51\BIN\BL51.EXE .\Objects\STARTUP.obj, .\Objects\mian.obj TO .\Objects\LED_Show PRINT (.\Listings\LED_Show.
+>> m51)
+
+
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  .\Objects\STARTUP.obj (?C_STARTUP)
+  .\Objects\mian.obj (MIAN)
+
+
+LINK MAP OF MODULE:  .\Objects\LED_Show (?C_STARTUP)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            DATA    0008H     0002H     UNIT         ?DT?MIAN
+            IDATA   000AH     0001H     UNIT         ?STACK
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+            CODE    0003H     00A4H     UNIT         ?PR?__74HC595_SEND?MIAN
+            CODE    00A7H     0055H     UNIT         ?PR?MAIN?MIAN
+            CODE    00FCH     0020H     UNIT         ?PR?_MATRIXLED?MIAN
+            CODE    011CH     000CH     UNIT         ?C_C51STARTUP
+
+
+
+OVERLAY MAP OF MODULE:   .\Objects\LED_Show (?C_STARTUP)
+
+
+SEGMENT
+  +--> CALLED SEGMENT
+---------------------
+?C_C51STARTUP
+  +--> ?PR?MAIN?MIAN
+
+?PR?MAIN?MIAN
+  +--> ?PR?_MATRIXLED?MIAN
+
+?PR?_MATRIXLED?MIAN
+  +--> ?PR?__74HC595_SEND?MIAN
+
+
+
+SYMBOL TABLE OF MODULE:  .\Objects\LED_Show (?C_STARTUP)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        ?C_STARTUP
+  C:011CH         SEGMENT       ?C_C51STARTUP
+  I:000AH         SEGMENT       ?STACK
+BL51 BANKED LINKER/LOCATER V6.22                                                      02/09/2023  20:33:45  PAGE 2
+
+
+  C:0000H         PUBLIC        ?C_STARTUP
+  D:00E0H         SYMBOL        ACC
+  D:00F0H         SYMBOL        B
+  D:0083H         SYMBOL        DPH
+  D:0082H         SYMBOL        DPL
+  N:0000H         SYMBOL        IBPSTACK
+  N:0100H         SYMBOL        IBPSTACKTOP
+  N:0080H         SYMBOL        IDATALEN
+  C:011FH         SYMBOL        IDATALOOP
+  N:0000H         SYMBOL        PBPSTACK
+  N:0100H         SYMBOL        PBPSTACKTOP
+  N:0000H         SYMBOL        PDATALEN
+  N:0000H         SYMBOL        PDATASTART
+  N:0000H         SYMBOL        PPAGE
+  N:0000H         SYMBOL        PPAGEENABLE
+  D:00A0H         SYMBOL        PPAGE_SFR
+  D:0081H         SYMBOL        SP
+  C:011CH         SYMBOL        STARTUP1
+  N:0000H         SYMBOL        XBPSTACK
+  N:0000H         SYMBOL        XBPSTACKTOP
+  N:0000H         SYMBOL        XDATALEN
+  N:0000H         SYMBOL        XDATASTART
+  C:0000H         LINE#         126
+  C:011CH         LINE#         133
+  C:011EH         LINE#         134
+  C:011FH         LINE#         135
+  C:0120H         LINE#         136
+  C:0122H         LINE#         185
+  C:0125H         LINE#         196
+  -------         ENDMOD        ?C_STARTUP
+
+  -------         MODULE        MIAN
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  D:0080H         PUBLIC        P0
+  B:00A0H.0       PUBLIC        P2_0
+  B:00A0H.1       PUBLIC        P2_1
+  B:00A0H.2       PUBLIC        P2_2
+  B:00A0H.3       PUBLIC        P2_3
+  B:00A0H.4       PUBLIC        P2_4
+  B:00A0H.5       PUBLIC        P2_5
+  B:00A0H.6       PUBLIC        P2_6
+  B:00A0H.7       PUBLIC        P2_7
+  C:00A7H         PUBLIC        main
+  B:00B0H.6       PUBLIC        SERCLK
+  C:0100H         PUBLIC        _MatrixLED
+  B:00B0H.5       PUBLIC        RCK
+  C:0003H         PUBLIC        __74HC595_Send
+  D:0008H         PUBLIC        i
+  B:00B0H.4       PUBLIC        SER
+  -------         PROC          __74HC595_SEND
+  D:0001H         SYMBOL        byte
+  D:0002H         SYMBOL        state
+  C:0003H         LINE#         15
+  C:0009H         LINE#         16
+  C:000EH         LINE#         17
+  C:0028H         LINE#         18
+  C:002FH         LINE#         20
+BL51 BANKED LINKER/LOCATER V6.22                                                      02/09/2023  20:33:45  PAGE 3
+
+
+  C:0035H         LINE#         21
+  C:0039H         LINE#         22
+  C:0039H         LINE#         23
+  C:0041H         LINE#         24
+  C:0045H         LINE#         25
+  C:0045H         LINE#         26
+  C:004DH         LINE#         27
+  C:0051H         LINE#         28
+  C:0051H         LINE#         29
+  C:0059H         LINE#         30
+  C:005DH         LINE#         31
+  C:005DH         LINE#         32
+  C:0065H         LINE#         33
+  C:0069H         LINE#         34
+  C:0069H         LINE#         35
+  C:0071H         LINE#         36
+  C:0075H         LINE#         37
+  C:0075H         LINE#         38
+  C:007DH         LINE#         39
+  C:0081H         LINE#         40
+  C:0081H         LINE#         41
+  C:0089H         LINE#         42
+  C:008DH         LINE#         43
+  C:008DH         LINE#         44
+  C:008DH         LINE#         45
+  C:008FH         LINE#         46
+  C:0091H         LINE#         47
+  C:00A2H         LINE#         48
+  C:00A4H         LINE#         49
+  C:00A6H         LINE#         50
+  -------         ENDPROC       __74HC595_SEND
+  -------         PROC          L?0023
+  -------         ENDPROC       L?0023
+  -------         PROC          _MATRIXLED
+  D:0082H         SYMBOL        column
+  D:0004H         SYMBOL        Data
+  C:0100H         LINE#         57
+  C:0102H         LINE#         58
+  C:010BH         LINE#         59
+  C:011BH         LINE#         60
+  -------         ENDPROC       _MATRIXLED
+  -------         PROC          MAIN
+  C:00A7H         LINE#         62
+  C:00A7H         LINE#         64
+  C:00A9H         LINE#         65
+  C:00ABH         LINE#         66
+  C:00ABH         LINE#         67
+  C:00B5H         LINE#         68
+  C:00BCH         LINE#         69
+  C:00C3H         LINE#         70
+  C:00CEH         LINE#         71
+  C:00D9H         LINE#         72
+  C:00E4H         LINE#         73
+  C:00EFH         LINE#         74
+  C:00FAH         LINE#         75
+  -------         ENDPROC       MAIN
+  -------         ENDMOD        MIAN
+BL51 BANKED LINKER/LOCATER V6.22                                                      02/09/2023  20:33:45  PAGE 4
+
+
+
+Program Size: data=11.0 xdata=0 code=296
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)
