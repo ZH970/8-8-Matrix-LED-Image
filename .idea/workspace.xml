@@ -18,7 +18,21 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55a91ed1-1c1e-4a25-b645-f22dfb21e8fe" name="变更" comment="" />
+    <list default="true" id="55a91ed1-1c1e-4a25-b645-f22dfb21e8fe" name="变更" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LED_Show.uvgui.zh137" beforeDir="false" afterPath="$PROJECT_DIR$/LED_Show.uvgui.zh137" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LED_Show.uvopt" beforeDir="false" afterPath="$PROJECT_DIR$/LED_Show.uvopt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LED_Show.uvproj" beforeDir="false" afterPath="$PROJECT_DIR$/LED_Show.uvproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Listings/LED_Show.m51" beforeDir="false" afterPath="$PROJECT_DIR$/Listings/LED_Show.m51" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Listings/mian.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Listings/mian.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Objects/LED_Show" beforeDir="false" afterPath="$PROJECT_DIR$/Objects/LED_Show" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Objects/LED_Show.build_log.htm" beforeDir="false" afterPath="$PROJECT_DIR$/Objects/LED_Show.build_log.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Objects/LED_Show.hex" beforeDir="false" afterPath="$PROJECT_DIR$/Objects/LED_Show.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Objects/LED_Show.lnp" beforeDir="false" afterPath="$PROJECT_DIR$/Objects/LED_Show.lnp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Objects/mian.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Objects/mian.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mian.c" beforeDir="false" afterPath="$PROJECT_DIR$/mian.c" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +42,9 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -41,27 +58,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;J:/Programing/51/Personal/LED_Show&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "J:/Programing/51/Personal/LED_Show",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -77,12 +94,24 @@
       <workItem from="1675839050990" duration="284000" />
       <workItem from="1675839359822" duration="7570000" />
       <workItem from="1675930507702" duration="4070000" />
-      <workItem from="1675945054442" duration="2083000" />
+      <workItem from="1675945054442" duration="3579000" />
+      <workItem from="1676023177051" duration="5931000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

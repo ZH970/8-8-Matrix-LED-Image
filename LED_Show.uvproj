@@ -374,14 +374,14 @@
               <FilePath>.\mian.c</FilePath>
             </File>
             <File>
-              <FileName>Delay.c</FileName>
+              <FileName>MatirxLED.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Delay.c</FilePath>
+              <FilePath>.\MatirxLED.c</FilePath>
             </File>
             <File>
-              <FileName>Delay.h</FileName>
+              <FileName>MatrixLED.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Delay.h</FilePath>
+              <FilePath>.\MatrixLED.h</FilePath>
             </File>
           </Files>
         </Group>

@@ -1,4 +1,5 @@
 ".\Objects\STARTUP.obj",
-".\Objects\mian.obj" 
+".\Objects\mian.obj",
+".\Objects\MatirxLED.obj" 
 TO ".\Objects\LED_Show" 
 PRINT(".\Listings\LED_Show.m51")
